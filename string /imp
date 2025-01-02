@@ -1,0 +1,76 @@
+ceil(9/5)=1.8=2
+floor(9/5)=1.8=1
+
+string s
+get last element => s.back();
+
+
+
+string s;
+getline(cin,s);
+stringstream ss(s);
+string temp;
+while(ss>>temp) cout<<temp:
+s.find("shubham")!=s.npos
+s.find('s')!=s.npos
+
+
+
+
+int main() {
+    string input = "123 456 789";
+    stringstream ss(input);  //ss can be any name 
+
+    int num;
+    while (ss >> num) {
+        cout << "Extracted number: " << num <<endl;
+    }
+
+    //if you want to single word from the given sentence you can 
+    // also use the above thing by apllying some condition.
+    return 0;
+}
+
+#include <iostream>
+#include <string>
+
+int main() {
+    string line;
+    cout << "Enter a line of text: ";
+    getline(cin, line);
+    cout <<" text: " << line << endl;
+    return 0;
+}
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    string s;
+    cout<<"enter a sentence"<<endl;
+    getline(cin,s);
+    if(s.find("shubham")!=string::npos){
+        cout<<"yes"<<endl;
+    }
+    cout<<"the sentence is : "<<s<<endl;
+    return 0;
+}
+
+string text = "Hello, world!";
+string result = text.substr(7, text.npos); // Get the rest of the string from position 7
+cout << result << endl; // Output: "world!"
+
+int main() {
+    string s;
+    cout << "Enter a sentence: " << endl;
+    getline(cin, s);  // Read the entire sentence including spaces
+
+    // Use istringstream to split string into words
+    stringstream ss(s);
+    string word;
+    while (iss >> word) {
+        cout << word << endl;  // Print each word in the sentence
+    }
+
+    return 0;
+}

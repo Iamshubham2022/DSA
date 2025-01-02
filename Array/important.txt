@@ -1,0 +1,23 @@
+An array A rotated by x positions results in an array B 
+of the same length such that A[i] == B[(i+x) % A.length],
+
+A[i]=B[(i−x+n)%n] right to left  k=k%n; for over flow
+A[i] == B[(i+x) % n] left to right;
+
+where % is the modulo operation.
+
+*max_element(nums.begin(),nums.end());
+accumulation(nums.begiin(),nums.end(),0);
+
+1e10====int
+long long >=1e10
+
+if i want to find out a longest array with sum k,and that array carries +ve,-ve,0 then 
+i will go for thee sulotion by using preffix sum , k = sum of x ele - sum of (x-k) ele;
+by using hashmap data-structure;
+
+but for only positive i will go with another solution
+
+next_permutation
+
+if you want to find out monotonically then use stack;
