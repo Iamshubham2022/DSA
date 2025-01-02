@@ -5,8 +5,8 @@ string s
 get last element => s.back();
 
 
-
 string s;
+cin.ignore(); /// important 
 getline(cin,s);
 stringstream ss(s);
 string temp;
@@ -14,8 +14,9 @@ while(ss>>temp) cout<<temp:
 s.find("shubham")!=s.npos
 s.find('s')!=s.npos
 
+string result = s.substr(7, text.npos); 
 
-
+str.push_back(s[i]); // it will reverse the string after the loop
 
 int main() {
     string input = "123 456 789";

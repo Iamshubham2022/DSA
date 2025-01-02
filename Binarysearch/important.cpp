@@ -1,6 +1,7 @@
 
 1. sorted anything 
-2. find something in range 
+2. find something in range
+3. max(min)  or min(max)
 
 int  mid = low +(high-low)/2   //for long long  it will not overflow
 
