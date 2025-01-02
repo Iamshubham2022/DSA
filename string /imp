@@ -16,6 +16,19 @@ s.find('s')!=s.npos
 
 string result = s.substr(7, text.npos); 
 
+
+// take as input of 12345678901234567891234567812345678
+// we cant take input in long long or int because it is greater then 1e18
+// we can take it as string 
+string s
+cin>>s;
+int last = s[s.size()-1]-'0'+1; //convert in int like this 
+s[s.size()-1] // it is a Ascii value 
+-'0' // sub ASCII value of zero 
+// and then add 1 then it will so 8 -> 9
+
+
+
 str.push_back(s[i]); // it will reverse the string after the loop
 
 int main() {
