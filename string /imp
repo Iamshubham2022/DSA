@@ -28,8 +28,24 @@ s[s.size()-1] // it is a Ascii value
 // and then add 1 then it will so 8 -> 9
 
 
+time complexity will be o(1);
+str.push_back(s[i]); // it will reverse the string after the loop or add element 
 
-str.push_back(s[i]); // it will reverse the string after the loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main() {
     string input = "123 456 789";
