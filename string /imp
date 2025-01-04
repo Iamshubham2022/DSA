@@ -33,6 +33,16 @@ str.push_back(s[i]); // it will reverse the string after the loop or add element
 
 longest common prifix string mean  (the string should start from begin to the common length)
 
+isdigit(s[i])  return bool if it is digit ;
+
+
+// it handle the case when long long over flow ;
+if (neg == 1 && (sum > (INT_MAX - digit) / 10)) {
+    return INT_MAX;
+}
+if (neg == -1 && (-sum < (INT_MIN + digit) / 10)) {
+    return INT_MIN;
+}
 
 
 
