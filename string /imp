@@ -31,7 +31,7 @@ s[s.size()-1] // it is a Ascii value
 time complexity will be o(1);
 str.push_back(s[i]); // it will reverse the string after the loop or add element 
 
-
+longest common prifix string mean  (the string should start from begin to the common length)
 
 
 
