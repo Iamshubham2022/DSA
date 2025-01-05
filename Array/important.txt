@@ -21,3 +21,7 @@ but for only positive i will go with another solution
 next_permutation
 
 if you want to find out monotonically then use stack;
+
+diffrence array technique------
+arr ={1,2,3,4,5,2,3,5,7}
+q=[[1,2,1],[1,5,-1],[2,5,8]]
